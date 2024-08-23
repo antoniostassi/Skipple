@@ -50,7 +50,7 @@ html {
     height:200px;
     border-radius: 50%;
     position:fixed;
-    bottom:90vh;
+    bottom:90dvh;
     left:0;
     right:0;
     transition:width 1s, height 1s, bottom 1s;
@@ -59,7 +59,7 @@ html {
 #nav-circle.active-category-round:hover {
     width:300px;
     height:300px;
-    bottom:84vh;
+    bottom:84dvh;
 }
 
 #nav-circle.active-category-round:hover > .logo-bg {
@@ -67,8 +67,9 @@ html {
 }
 
 #nav-circle.active-category-round:hover > #arrow {
-    transform:rotate(540deg);
-    top:60px;
+    transform:rotate(180deg);
+    top:35px;
+    opacity:0;
 }
 
 #nav-circle.active-category-round:hover > #arrow > i {
@@ -96,7 +97,7 @@ html {
     margin:0 auto;
     position:relative;
     top:23px;
-    transition:transform 2s, top 1s;
+    transition:transform 1s, top 1s, opacity 1s;
 }
 
 #arrow > i {
