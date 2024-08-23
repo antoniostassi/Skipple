@@ -56,23 +56,23 @@ html {
     transition:width 1s, height 1s, bottom 1s;
 }
 
-#nav-circle.active-category-round:hover {
+/* Activated classes */
+#nav-circle.nav-circle-activated {
     width:300px;
     height:300px;
     bottom:84dvh;
 }
 
-#nav-circle.active-category-round:hover > .logo-bg {
+.nav-circle-activated > .logo-bg {
     margin-bottom:30px;
 }
 
-#nav-circle.active-category-round:hover > #arrow {
+#arrow.arrow-activated {
     transform:rotate(180deg);
     top:35px;
-    opacity:0;
 }
 
-#nav-circle.active-category-round:hover > #arrow > i {
+.arrow-activated > i {
     font-size:3rem;
 }
 
