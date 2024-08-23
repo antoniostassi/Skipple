@@ -64,7 +64,7 @@ html {
 }
 
 .nav-circle-activated > .logo-bg {
-    margin-bottom:30px;
+    margin-bottom:37px;
 }
 
 #arrow.arrow-activated {
@@ -83,7 +83,7 @@ html {
     border-radius:50%;
     transition:margin-bottom 2.5s;
     position:relative;
-    top:20px;
+    top:27px;
 }
 
 .logo {
